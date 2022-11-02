@@ -1,1 +1,74 @@
+html body{
+    font-family:  Verdana, Arial, sans-serif;
+    background: white;
+}
 
+h1{
+    font-family: Arial, sans-serif;
+}
+h2{
+    font-family: Arial, sans-serif;
+}
+h3{
+    font-family: Arial, sans-serif;
+}
+
+.produit{
+    color: coral;
+    font-style: italic;
+}
+
+.produit th::first-letter{
+    color:blue!important;
+}
+
+.références{
+    color:black;
+    font-style: italic;
+}
+table tbody tr.th > td{
+    background: lightgrey;
+}
+td:nth-child(2){
+    background: lightgrey;
+}
+
+.general{
+    color:lightblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#test1{
+
+}
+#test1 h3{
+    color:red;
+    text-transform: uppercase;
+}
+blockquote p{
+    text-indent: 20px;
+}
+blockquote p::first-letter {
+    color: green;
+    font-weight: bold;
+    font-family: fantasy;
+}
+tr{
+    font-variant-caps: small-caps;
+}
+#test2{
+
+}
+
+#test3{
+    color:blue;
+    font-size: small;
+    background: #C0C0C0;
+}
+#test3 p{
+    text-align: end;
+}
+ol ol{
+    list-style: circle;
+}
